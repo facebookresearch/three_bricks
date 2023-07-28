@@ -130,6 +130,11 @@ See also the following repositories:
 - https://github.com/facebookresearch/llama/
 
 
+## License
+
+three_bricks is CC-BY-NC licensed, as found in the [LICENSE](LICENSE) file.
+
+
 ## Citation
 
 If you find this repository useful, please consider giving a star :star: and please cite as:
