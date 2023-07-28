@@ -1,0 +1,5 @@
+scipy
+pandas
+peft==0.4.0
+transformers==4.31.0
+sentence-transformers==2.2.2
