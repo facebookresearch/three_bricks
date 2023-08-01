@@ -7,8 +7,8 @@ For additional technical details, see [**the paper**](ARXIV).
 
 
 [[`Webpage`](https://pierrefdz.github.io/publications/threebricks/)]
-[[`arXiv`](ARXIV)]
-[[`Demo`](https://huggingface.co/spaces/NohTow/LLaMav2_watermarking)]
+[[`arXiv`](ONHOLD)]
+[[`Demo`](https://huggingface.co/spaces/NohTow/LLM_watermarking)]
 
 
 ## Setup
