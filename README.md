@@ -3,11 +3,11 @@
 This repository allows to generate and watermark text using various watermarking methods, with LLaMA models.
 Detection of the watermarks is possible using various statistical tests, such as the ones introduced in the paper.
 
-For additional technical details, see [**the paper**](ARXIV).  
+For additional technical details, see [**the paper**](https://arxiv.org/abs/2308.00113).  
 
 
 [[`Webpage`](https://pierrefdz.github.io/publications/threebricks/)]
-[[`arXiv`](ONHOLD)]
+[[`arXiv`](https://arxiv.org/abs/2308.00113)]
 [[`Demo`](https://huggingface.co/spaces/NohTow/LLM_watermarking)]
 
 
