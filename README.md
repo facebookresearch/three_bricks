@@ -9,6 +9,7 @@ For additional technical details, see [**the paper**](https://arxiv.org/abs/2308
 [[`Webpage`](https://pierrefdz.github.io/publications/threebricks/)]
 [[`arXiv`](https://arxiv.org/abs/2308.00113)]
 [[`Demo`](https://huggingface.co/spaces/NohTow/LLM_watermarking)]
+[[`Demo Llama 2`]](https://huggingface.co/spaces/NohTow/Llama2_watermarking)
 
 
 ## Setup
