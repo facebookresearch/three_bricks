@@ -54,7 +54,9 @@ The repository supports different watermarking methods, including the works of [
 The detection can be performed using the original statistical tests, or using the ones introduced in the paper.
 
 You can use the script by running the `main_watermark.py` file with the appropriate command-line arguments.
-The main ones are:
+<details>
+<summary><span style="font-weight: bold;">Command Line Arguments for main_watermark.py</span></summary>
+    
 - `--model_name`: The name of the pre-trained model to use for text generation and analysis. Supported model names include "llama-7b", "guanaco-7b" and "guanaco-13b".
 - `--prompt_path`: The path to the JSON file containing prompts. Default value: "data/alpaca_data.json."
 - `--method`: Choose a watermarking method for text generation. Options: "none" (no watermarking), "openai" (Aaronson et al.), "maryland" (Kirchenbauer et al.). Default value: "none."
@@ -63,6 +65,8 @@ The main ones are:
 - `--ngram`: Watermark context width for RNG key generation. Default value: 4.
 - `--payload`: Message for multi-bit watermarking. It must be inferior to `--payload_max`. Default value: 0
 - `--payload_max`: Maximal message for multi-bit watermarking. It must be inferior to the vocabulary size. Must be >0 to do multi-bit watermarking. Default value: 0.
+
+</details>
 
 For example, the following command generates watermarked text using the method of Aaronson et al., and detects the watermark using the statistical test of the paper.
 ```cmd
