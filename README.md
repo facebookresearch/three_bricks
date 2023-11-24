@@ -145,7 +145,7 @@ If you find this repository useful, please consider giving a star :star: and ple
 @article{fernandez2023three,
   title={Three Bricks to Consolidate Watermarks for Large Language Models},
   author={Fernandez, Pierre and Chaffin, Antoine and Tit, Karim and Chappelier, Vivien and Furon, Teddy},
-  journal={preprint (under review)},
+  journal={2023 IEEE International Workshop on Information Forensics and Security (WIFS)},
   year={2023}
 }
 ```
