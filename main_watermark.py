@@ -158,13 +158,13 @@ def main(args):
 
     # build model
     if args.model_name == "llama-7b":
-        model_name = "llama-7b"
+        model_name = "huggyllama/llama-7b"
         adapters_name = None
     if args.model_name == "guanaco-7b":
-        model_name = "llama-7b"
+        model_name = "huggyllama/llama-7b"
         adapters_name = 'timdettmers/guanaco-7b'
     elif args.model_name == "guanaco-13b":
-        model_name = "llama-13b"
+        model_name = "huggyllama/llama-13b"
         adapters_name = 'timdettmers/guanaco-13b'
     tokenizer = AutoTokenizer.from_pretrained(model_name)
     args.ngpus = torch.cuda.device_count() if args.ngpus is None else args.ngpus
