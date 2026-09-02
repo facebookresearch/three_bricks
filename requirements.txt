@@ -1,5 +1,5 @@
 scipy
 pandas
 peft==0.4.0
-transformers==5.0.0rc3
+transformers==5.10.1
 sentence-transformers==2.2.2
